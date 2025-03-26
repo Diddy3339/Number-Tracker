@@ -19,7 +19,7 @@ print("Service provider : ",carrier.name_for_number(service_provider, "en"))
 
 
 from opencage.geocoder import OpenCageGeocode
-geocoder = OpenCageGeocode(keys)
+geocoder = OpenCageGeocode(efe9bdc6f4f947cbad39ad0f3f217470)
 query = str(number_location)
 results = geocoder.geocode(query)
 
